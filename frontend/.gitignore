@@ -1,0 +1,44 @@
+# React / Next.js .gitignore
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+.next/
+out/
+
+# Production env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing
+coverage/
+.jest/
+
+# Misc
+*.log
+*.tgz
+.cache/
+.eslintcache
