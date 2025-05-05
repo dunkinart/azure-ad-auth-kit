@@ -1,0 +1,33 @@
+{
+  "name": "azure-ad-auth-kit",
+  "version": "1.0.4",
+  "description": "Azure Active Directory authentication toolkit using Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dunkinart/azure-ad-auth-kit.git"
+  },
+  "keywords": [
+    "azure",
+    "active-directory",
+    "authentication",
+    "nodejs",
+    "express",
+    "microsoft-login",
+    "sso",
+    "oauth2"
+  ],
+  "author": "Awais Aslam <awais@dunkinart.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dunkinart/azure-ad-auth-kit/issues"
+  },
+  "homepage": "https://github.com/dunkinart/azure-ad-auth-kit#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1"
+  }
+}
